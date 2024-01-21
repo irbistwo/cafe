@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<document>
+<title name="Настройка путей" icon="img/data.png">
+<item name="urldownload1" type="string" uiname="Сервер печати" initvalue="10.0.3.1" icon="0xe935"/>
+<item name="urldownload2" type="string" uiname="Загрузка" icon="0xe0b6"/>
+<item name="urldownloadjson" type="string" uiname="Загрузка JSON" initvalue="10.0.3.1:8001" />
+<item name="urldownloadxml" type="string" uiname="Загрузка XML" initvalue="cis-pos.com" />
+<item name="is_https" type="boolean" uiname="HTTPS;Включает https" icon="0xe0b7" initvalue="false"/>
+
+</title>
+<title name="Настройка сканера" icon="img/doc_pko.png">
+<item name="is_vibration" type="boolean" uiname="Вибрация;Устанавливает виброотклик" icon="0xe0b6"/>
+<item name="is_sound" type="boolean" uiname="Звук;Устанавливает звук" icon="0xe0b7" initvalue="true"/>
+</title>
+
+
+<title name="Тип сканера" icon="img/settings.png">
+<item name="ScanerType" type="List" uiname="Urovo;Urovo SPP;HonneyWell;Urovo 9000" initvalue="0"/>
+</title>
+<title name="Авторизация" icon="img/cloudediting.png">
+<item name="Token" type="string" uiname="Ключ авторизации" initvalue="cis-token" icon="0xe3c9"/>
+<item name="cisuser" type="string" uiname="Имя(Код пользователя)" initvalue="operator" icon="0xe416"/>
+<item name="cisuserpass" type="string" uiname="Пароль пользователя" initvalue="cispass" icon="0xe416"/>
+<item name="basetoken" type="string" uiname="Токен для загрузки/выгрзки базы" initvalue="base-token" icon1="0xe416"/>
+</title>
+
+</document>
